@@ -34,8 +34,6 @@ namespace WebAPI.Controllers
         {
             //Swagger
             //Dependency chain --
-
-            Thread.Sleep(5000);
             var result = _productService.GetAll();
             if (result.Success)
             {
